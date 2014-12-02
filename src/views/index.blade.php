@@ -5,7 +5,7 @@
 @section('content')
 <main class="sitemap">
 	<div class="row">
-		@include('sitemap::list')
+		@include('sitemap::index-children')
 	</div>
 </main>
 @stop
