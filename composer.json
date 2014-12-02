@@ -1,0 +1,23 @@
+{
+    "name": "angel/sitemap",
+    "description": "",
+    "authors": [
+        {
+            "name": "Charles Konsor",
+            "email": "charles@angelvisiontech.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/controllers"
+        ],
+        "psr-0": {
+            "Angel\\Sitemap\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
